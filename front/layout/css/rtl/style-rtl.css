@@ -1,0 +1,46 @@
+ body:not(.sidebar-mini-md) .content-wrapper, body:not(.sidebar-mini-md) .main-footer, body:not(.sidebar-mini-md) .main-header {
+    transition: margin-left .3s ease-in-out;
+    margin-right: 250px!important;
+    margin-left:0px!important;
+}
+    .layout-fixed .main-sidebar {
+        bottom: 0;
+        float: none;
+        height: 100vh;
+        right: 0!important;
+        position: fixed;
+        top: 0;
+     }
+
+ .nav-sidebar .nav-item>.nav-link {
+     position: relative;
+     text-align:left !important;
+ }
+ .nav-sidebar>.nav-item .nav-icon {
+     font-size: 1.2rem;
+     margin-right: 8px;
+     text-align: center;
+     width: 10px;
+     float: left!important;;
+ }
+ /*rtl icon  in sidbar-------------------*/
+/* .nav-sidebar .nav-link p {*/
+/*     display: inline-block;*/
+/*     margin: 0;*/
+/*     text-align: right;*/
+/*     right: 0;*/
+/*     float: right;*/
+/* }*/
+/* .nav-sidebar>.nav-item .nav-icon {*/
+/*     font-size: 1.2rem;*/
+/*     margin-left: 23px;*/
+/*     text-align: center;*/
+/*     width: 10px;*/
+/*     float: right!important;*/
+/* }*/
+
+/* .nav-sidebar .nav-link>.right, .nav-sidebar .nav-link>p>.right {*/
+/*       left: 1rem!important;*/
+/*position: relative;*/
+/* }*/
+ /* End rtl icon  in sidbar-------------------*/

@@ -1,0 +1,15 @@
+
+/*---------------start  public style---------------- */
+.modal-body,.modal-content,.head_title,.card_dark{
+    background: #000!important;
+    color: #fff!important;
+}
+
+/*---------------End   public style---------------- */
+/*---------------start style page create Admin ---------------- */
+.head_title{
+    border-color:  #fff;
+
+}
+
+/*---------------End  style page create Admin ---------------- */

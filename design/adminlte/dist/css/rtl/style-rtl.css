@@ -1,0 +1,114 @@
+/* 
+
+ @media (min-width: 992px){
+ 
+.nav-sidebar .nav-link>.right, .nav-sidebar .nav-link>p>.right {
+    position: absolute;
+    left: 1rem;
+    top: .7rem;
+}
+ 
+.fa.fa-flag-checkered.nav-icon {
+    position: absolute;
+     display: none;
+opacity: 0;
+ }
+ .layout-fixed .main-sidebar {
+    bottom: 0;
+    float: none;
+    height: 100vh;
+    right: 0;
+    position: fixed;
+    top: 0;
+}
+ .sidebar-mini-md   {
+    transition: margin-left .3s ease-in-out;
+   margin-left: 0!important;
+   display: none;
+}
+ 
+ body:not(.sidebar-mini-md) .content-wrapper, body:not(.sidebar-mini-md) .main-footer, body:not(.sidebar-mini-md) .main-header {
+    transition: margin-left .3s ease-in-out;
+    margin-left: 0!important;
+ }
+
+body:not(.sidebar-mini-md) .content-wrapper, body:not(.sidebar-mini-md) .main-footer, body:not(.sidebar-mini-md) .main-header {
+    transition: margin-left .3s ease-in-out;
+    margin-right: 250px!important;
+}
+@media (min-width: 992px){
+.sidebar-mini.sidebar-collapse .content-wrapper, .sidebar-mini.sidebar-collapse .main-footer, .sidebar-mini.sidebar-collapse .main-header {
+    margin-left: 0!important;
+}
+}
+
+
+ 
+.sidebar-mini.layout-fixed.sidebar-open {
+    bottom: 0;
+    float: none;
+    height: 100vh;
+    right: -249px;
+    position: fixed;
+    top: 0;
+}
+body:not(.sidebar-mini-md) .content-wrapper, body:not(.sidebar-mini-md) .main-footer, body:not(.sidebar-mini-md) .main-header {
+    transition: margin-left .3s ease-in-out;
+    margin-right: 74px!important;
+}
+
+}*/
+
+ .navbar-nav{
+   margin-right:250px;
+ }
+  @media (min-width: 992px){
+
+ .sidebar-mini-md   {
+    transition: margin-left .3s ease-in-out;
+   margin-left: 0!important;
+   display: none;
+}
+ 
+
+.layout-fixed .main-sidebar {
+    bottom: 0;
+    float: none;
+    height: 100vh;
+    right: 0;
+    position: fixed;
+    top: 0;
+}
+
+
+ @media (min-width: 768px){
+body:not(.sidebar-mini-md) .content-wrapper, body:not(.sidebar-mini-md) .main-footer, body:not(.sidebar-mini-md) .main-header {
+    transition: margin-left .3s ease-in-out;
+    margin-left: 0;
+}
+}
+@media (min-width: 992px){
+.sidebar-mini.sidebar-collapse .content-wrapper, .sidebar-mini.sidebar-collapse .main-footer, .sidebar-mini.sidebar-collapse .main-header {
+    margin-left: 0!important;
+}
+}
+ .nav-sidebar .nav-link>.right, .nav-sidebar .nav-link>p>.right {
+    position: absolute;
+    left: 1rem !important;
+    top: .7rem;
+}
+
+.content-wrapper{
+    margin-right: 250px!important;
+}
+    }/*End  media larg*/
+
+ 
+ 
+ 
+.nav-sidebar .nav-link>.right  {
+    position: absolute;
+    left: 1rem!important;
+    top: .7rem;
+}
+ 

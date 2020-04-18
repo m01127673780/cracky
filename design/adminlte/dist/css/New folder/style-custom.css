@@ -1,0 +1,42 @@
+.z99999{
+    z-index:99999!important;
+
+}
+/*---------------start  public style---------------- */
+.p_l_r_20px{
+padding-left: 20px!important;
+padding-right: 20px!important;
+}
+.hidden{display: none;}
+/*---------------End   public style---------------- */
+/*---------------start style page create Admin ---------------- */
+.head_title{
+    border-bottom: 2px solid #4b4b4b;
+    display: inline-block;
+    padding-bottom: 10px;
+    padding: 0 10px 7px;
+    color: #4b4b4b;
+}
+[class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.btn-create-new-row
+{
+    color: #fff;
+}
+
+[class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.btn-create-new-row:hover .icon-btn-create-new-row
+{
+    color: #fff;
+}
+
+[class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.btn-create-new-row:hover
+{
+    border: 1px dashed #fff;
+}
+[class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link {
+    color: #c2c7d0;
+    display: block;
+    width: 100%;
+    opacity: 1!important;
+    text-align: right!important;
+
+}
+/*---------------End  style page create Admin ---------------- */
