@@ -1,0 +1,200 @@
+    /*<!-- -----------------------------------------------------start section footer -->*/
+
+     /*-------------------------------------------------- start Public */
+    .m_t_100px {
+      margin-top: 400px
+     }
+     section{
+      overflow: hidden;
+     }
+      .overflow_vis{
+      overflow: visible;
+     }
+        .overflow_hid{
+      overflow: hidden;
+     }
+     .owl-theme .owl-nav {
+    margin-top: 0;
+}
+     .none{
+      display: none!important;
+     }
+      .bg_none{
+      background: none!important;
+      }
+      .border_l{border-left:1px solid #aaa;}
+      .border_r{border-right:1px solid #aaa;}
+      .border_t{border-top:1px solid #aaa;}
+      .border_b{border-bottom:1px solid #aaa;}
+      .border{border:1px solid #aaa;}
+
+      .bg_ffcc00 {
+      background: #ffcc00;
+      }
+      .content_footer_info img {
+      width: 50px;
+      }
+      .subscribe .content_input 
+      {
+      margin-left: 0!important;
+      } 
+      .subscribe .content_input  input:active{
+      outline: none!important;
+      border: none;
+      }
+      .subscribe .content_input  input:focus{
+      outline: none!important;
+      border: none!important;
+      background-color: yellow;
+      }
+      .subscribe .content_input  input
+      {
+      border-radius: 1.25rem;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      border-left: none;
+      } 
+      .subscribe  .btn
+      {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      background: #e90232;
+      border-right: none;
+      }
+      /*----------------------------------*/
+      .content_bitmap .img_bitmap {
+      width: 127%;
+      height: 141px;
+      }
+      .contact_us_footer p {
+      float: right;
+      margin-right: 23px;
+      width: 100%;
+      margin-bottom: 7px;
+      margin-top: 7px;
+      font-size: 15px;
+      color: #777;
+      } 
+      .contact_us_footer {
+      margin: 7px 0 1px 0;
+      }
+      /*..............................*/
+      .ul_links li a {
+      color: #777;
+      font-size: 15px
+      }
+      .content_footer_info p{
+      color: #777;
+      font-size: 15px
+      }
+      /*..............................*/
+
+      .content_copyright .middle{
+      width: 50%
+      }  
+      .p_copyright {
+      margin-top: 32px;
+      }
+      .copyright .middle{
+      float: left;
+      width: 100%;
+      margin-left: 50px;
+      /* line-height: 9; */
+      margin-top: -23px;
+      }
+      /*........................svg*/
+      .paths_setionpath_footre{
+      fill: #ffcc00;
+      stroke: #ffcc00;
+      width: 100%;
+      height: 100%;
+      }
+      .contact_us_footer{
+      /*box-shadow: 2px -2px 7px 7px #eeee;*/
+      }
+      .content_footer .col {
+      border-right: 1px solid #777
+      }
+      /*....................................... media footer icons*/
+
+      .middle {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+      text-align: center;
+      }
+      @media(max-width: 700px)
+      {
+      .middle {
+      position: relative;
+
+      }
+      }   
+
+      .btn_media{
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      background: #009999;
+      /* margin: 10px; */
+      border-radius: 30%;
+      box-shadow: 0 5px 15px -5px #00000070;
+      color: #24ff92;
+      overflow: hidden;
+      position: relative;
+      }
+      .btn_media i{
+      font-size: 20px;
+      transition:all 0.2s linear;
+      line-height: 1.75;
+      margin-left: -1px;
+      margin-top: 2px;
+      }
+      .btn_media:hover i{
+      transform: scale(1.3);
+      color: #009999;
+      }
+      .btn_media::before{
+      content: "";
+      position: absolute;
+      width: 120%;
+      height: 120%;
+      background: #24ff92;
+      transform: rotate(45deg);
+      left: -110%;
+      top: 90%;
+      }
+      .btn_media:hover::before{
+      animation: aaa 0.7s 1;
+      top: -10%;
+      left: -10%;
+      }
+      @keyframes aaa {
+      0%{
+      left: -110%;
+      top: 90%;
+      }50%{
+      left: 10%;
+      top: -30%;
+      }100%{
+      top: -10%;
+      left: -10%;
+      }
+      }
+      /*.......................................  End media footer icons*/
+      @media (max-width: 768px){
+
+      .none_sm{
+      display: none;
+
+      } 
+
+
+      }
+      section{
+      overflow: hidden;
+
+      }
+     /*-----------------------------------------------------End  section footer*/
+  
