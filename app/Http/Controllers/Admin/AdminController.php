@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Admin;
 use App\Admin;
+use App\Model\Product;
 use App\DataTables\AdminDatatable;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
@@ -18,7 +19,8 @@ class AdminController extends Controller
     {
        return $admin->render('back.admins.index',['title'=>trans('admin.admincontrol')]);
     }
- 
+
+
 
 
     /**

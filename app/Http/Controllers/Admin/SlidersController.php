@@ -86,7 +86,7 @@ class SlidersController extends Controller
             'text3_en'                 =>trans('admin.text3_en'),
             'link'                     =>trans('admin.link'),
             'photo'                    =>trans('admin.photo'),
-        ],[
+        ],[ 
         ]);
         if(request()->hasFile('photo')){
                     $data['photo']  = Up()->Upload([
@@ -129,7 +129,7 @@ class SlidersController extends Controller
             'text3_en'                 =>trans('admin.text3_en'),
             'link'                     =>trans('admin.link'),
             'photo'                    =>trans('admin.photo'),
-        ],[
+        ],[ 
         ]);
         if(request()->hasFile('photo')){
                     $data['photo']  = Up()->Upload([
@@ -150,7 +150,7 @@ class SlidersController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-
+ 
 
     /**
      * Show the form for editing the specified resource.
@@ -208,7 +208,7 @@ $data =$this->validate(request(),[
             'text3_en'                 =>trans('admin.text3_en'),
             'link'                     =>trans('admin.link'),
             'photo'                    =>trans('admin.photo'),
-        ],[
+        ],[ 
         ]);
         if(request()->hasFile('photo')){
                     $data['photo']  = Up()->Upload([
@@ -218,7 +218,7 @@ $data =$this->validate(request(),[
                         'delete_file' =>Slider::find($id)->photo,
                     ]);
                 }
-
+ 
         Slider::where('id',$id)->update($data);
         session()->flash('success', trans('admin.updated_record') );
         return redirect('admin/sliders');
@@ -244,7 +244,7 @@ $data =$this->validate(request(),[
     {
         if(is_array(request('item'))){
             // Slider::destroy(request('item'));
-            foreach (request('item') as $id)
+            foreach (request('item') as $id) 
             {
                 $sliders =  Slider::find($id);
                 Storage::delete($sliders->photo);

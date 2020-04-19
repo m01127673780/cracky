@@ -34,12 +34,17 @@ class ProductsDatatable extends DataTable
      * @param \App\Admin $model
      * @return \Illuminate\Database\Eloquent\Builder
      */
+
     public function query()
     {
-        return Product::query();
-        //return $model->newQuery()->select('id', 'add-your-columns-here', 'created_at', 'updated_at');
-    }
-
+        return Product::query()->where(function ($q)
+        {
+            if(request()->has('department_id'))
+            {
+                return $q->where('department_id',request('department_id'));
+            }//if
+        });//$q
+    }//query
     /**
      * Optional method if you want to use html builder.
      *

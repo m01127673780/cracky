@@ -16,13 +16,13 @@ class DepartmentsDatatable extends DataTable
         return datatables($query)
             // ->addColumn('checkbox', 'back.departments.btn.checkbox')
             ->addColumn('edit', 'back.departments.btn.edit')
-            // ->addColumn('add_poroduct', 'back.departments.btn.add_poroduct')
+             ->addColumn('add_poroduct', 'back.departments.btn.add_poroduct')
             // ->addColumn('delete', 'back.departments.btn.delete')
             ->addColumn('show', 'back.departments.btn.show')
             ->addColumn('image', 'back.departments.btn.image')
             ->rawColumns([
                 // 'checkbox',
-                // 'add_poroduct',
+                 'add_poroduct',
                 'edit',
                 // 'delete',
                 'show',
@@ -38,10 +38,14 @@ class DepartmentsDatatable extends DataTable
      */
     public function query()
     {
-        return Department::query();
-        //return $model->newQuery()->select('id', 'add-your-columns-here', 'created_at', 'updated_at');
-    }
-
+        return Department::query()->where(function ($q)
+        {
+            if(request()->has('id'))
+            {
+                return $q->where('id',request('id'));
+            }//if
+        });//$q
+    }//query
     /**
      * Optional method if you want to use html builder.
      *
@@ -103,6 +107,10 @@ class DepartmentsDatatable extends DataTable
             //     'searchable' => false,
             // ],
              [
+                'name'  => 'id',
+                'data'  => 'id',
+                'title' => '#',
+            ],[
                 'name'  => 'dep_name_'.session('lang'),
                 'data'  => 'dep_name_'.session('lang'),
                 'title' => trans('admin.dep_name_'.session('lang')),
@@ -110,7 +118,7 @@ class DepartmentsDatatable extends DataTable
             [
                 'name'  => 'image',
                 'data'  => 'image',
-                'title' => trans('admin.custom_icon_departments'),
+                'title' => trans('admin.icon_departments'),
                 'exportable' => false,
                 'printable'  => false,
                 'orderable'  => false,
@@ -125,15 +133,15 @@ class DepartmentsDatatable extends DataTable
                 'data'  => 'updated_at',
                 'title' => trans('admin.updated_at'),
             ],
-            // [
-            //     'name'       => 'add_poroduct',
-            //     'data'       => 'add_poroduct',
-            //     'title'      => trans('admin.add_poroduct'),
-            //     'exportable' => false,
-            //     'printable'  => false,
-            //     'orderable'  => false,
-            //     'searchable' => false,
-            // ],
+             [
+                 'name'       => 'add_poroduct',
+                 'data'       => 'add_poroduct',
+                 'title'      => trans('admin.add_poroduct'),
+                 'exportable' => false,
+                 'printable'  => false,
+                 'orderable'  => false,
+                 'searchable' => false,
+             ],
             [
                 'name'       => 'edit',
                 'data'       => 'edit',
