@@ -1,6 +1,6 @@
-    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="HandheldFriendly" content="true">
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="HandheldFriendly" content="true">
         <link rel="icon" href="{{url('public/storage').Storage::url(setting()->icon)}}" type="image/png" sizes="16x16">
 
         <!-- ---------------------------------------------------------------- -->
@@ -8,21 +8,21 @@
              <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e7d3c9b10594cb9"></script>
 
         <!-- ---------------------------------------------------------------- -->
-    <script src="{{url('front')}}/layout/js/jquery.min.js"></script>
+		<script src="{{url('front')}}/layout/js/jquery.min.js"></script>
 
    <!-- ----------------------------------------------------------------------------------------- -->
  <link rel="stylesheet" href="{{url('front')}}/layout/css/owl.carousel.min.css">
 <link rel="stylesheet" href="{{url('front')}}/layout/css/owl.theme.default.min.css">
  <!-- ----------------------------------------------------------------------------------------- -->
-{{--    <link rel="stylesheet" href="{{url('front')}}/layout/css/bootstrap.min.css"> --}}
-    <script src="{{url('front')}}/layout/js/bootstrap.min.js"></script>
-    <!-- ................ font Awesome -->
-    <link rel="stylesheet" href="{{url('front')}}/layout/css/pe-icon-7-stroke.css">
-    <link rel="stylesheet" href="{{url('front')}}/layout/css/helper.css">
-    <script src= "https://kit.fontawesome.com/a076d05399.js"></script>
+{{--		<link rel="stylesheet" href="{{url('front')}}/layout/css/bootstrap.min.css"> --}}
+		<script src="{{url('front')}}/layout/js/bootstrap.min.js"></script>
+		<!-- ................ font Awesome -->
+		<link rel="stylesheet" href="{{url('front')}}/layout/css/pe-icon-7-stroke.css">
+		<link rel="stylesheet" href="{{url('front')}}/layout/css/helper.css">
+		<script src= "https://kit.fontawesome.com/a076d05399.js"></script>
 
-    <link rel="stylesheet" href="{{url('front')}}/layout/css/font-awesome.min.css">
-    <!-- ................ font Awesome -->
+		<link rel="stylesheet" href="{{url('front')}}/layout/css/font-awesome.min.css">
+		<!-- ................ font Awesome -->
 
   <!-- ----------------------------------------------------------------------------------------- -->
 {{--        RTL--}}
@@ -41,45 +41,45 @@
     <link rel="stylesheet" href="layout/css/style_slider_top.css">
 
 
-    <!-- ----------------------------------------------------------------start menu -->
-    <script src="{{url('front')}}/layout/menu/js/jquery.hsmenu.min.js"></script>
-    <link rel="stylesheet" href="{{url('front')}}/layout/menu/css/hs-menu.min.css"/>
-    <!--Material Design Iconic Font-->
-    <link rel="stylesheet" href="{{url('front')}}/layout/menu/material-design/css/material-design-iconic-font.css" />
-    <script> $(document).ready(function () {$(".hs-menubar").hsMenu(); });</script>
-    <!-- -----------------------------------------------------------------End menu -->
-    <!-- ===============================  WOW JS-->
-    <link rel="stylesheet" href="{{url('front')}}/layout/wow-js/css/libs/animate.css">
-    <!-- <link rel="stylesheet" href="{{url('front')}}/layout/wow-js/css/site.css">
-    -->
+		<!-- ----------------------------------------------------------------start menu -->
+		<script src="{{url('front')}}/layout/menu/js/jquery.hsmenu.min.js"></script>
+		<link rel="stylesheet" href="{{url('front')}}/layout/menu/css/hs-menu.min.css"/>
+		<!--Material Design Iconic Font-->
+		<link rel="stylesheet" href="{{url('front')}}/layout/menu/material-design/css/material-design-iconic-font.css" />
+		<script> $(document).ready(function () {$(".hs-menubar").hsMenu(); });</script>
+		<!-- -----------------------------------------------------------------End menu -->
+		<!-- ===============================  WOW JS-->
+		<link rel="stylesheet" href="{{url('front')}}/layout/wow-js/css/libs/animate.css">
+		<!-- <link rel="stylesheet" href="{{url('front')}}/layout/wow-js/css/site.css">
+		-->
 
         <link rel="stylesheet" href="{{url('front')}}/layout/css/style-custom-front.css">
 
          <style>
-    .wow:first-child {
-    visibility: hidden;
-    }
-    </style>
-    <script src="{{url('front')}}/layout/wow-js/dist/wow.js"></script>
-    <script>
-    wow = new WOW(
-    {
-    animateClass: 'animated',
-    offset:       100,
+		.wow:first-child {
+		visibility: hidden;
+		}
+		</style>
+		<script src="{{url('front')}}/layout/wow-js/dist/wow.js"></script>
+		<script>
+		wow = new WOW(
+		{
+		animateClass: 'animated',
+		offset:       100,
 
-    callback:     function(box) {
-    console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
-    }
-    }
-    );
-    wow.init();
-    document.getElementById('moar').onclick = function() {
-    var section = document.createElement('section');
-    section.className = 'section--purple wow fadeInDown';
-    this.parentNode.insertBefore(section, this);
-    };
-    </script>
-    <!-- =============================== WOW JS -->
+		callback:     function(box) {
+		console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+		}
+		}
+		);
+		wow.init();
+		document.getElementById('moar').onclick = function() {
+		var section = document.createElement('section');
+		section.className = 'section--purple wow fadeInDown';
+		this.parentNode.insertBefore(section, this);
+		};
+		</script>
+		<!-- =============================== WOW JS -->
     <!-- ===============================   scrol_to_top JS -->
 
 
@@ -324,25 +324,25 @@
  <link rel="stylesheet" href="{{url('front')}}/layout/zoom/zoomy.css">
 
 
-    <style>
+  	<style>
 
-    /* these styles are for the demo, but are not required for the plugin */
-    .zoom {
-      display:inline-block;
-      position: relative;
-    }
+		/* these styles are for the demo, but are not required for the plugin */
+		.zoom {
+			display:inline-block;
+			position: relative;
+		}
 
-    /* magnifying glass icon */
-    .zoom:after {
-      content:'';
-      display:block;
-      width:33px;
-      height:33px;
-      position:absolute;
-      top:0;
-      right:0;
-      background:url(icon.png);
-    }
+		/* magnifying glass icon */
+		.zoom:after {
+			content:'';
+			display:block;
+			width:33px;
+			height:33px;
+			position:absolute;
+			top:0;
+			right:0;
+			background:url(icon.png);
+		}
 
 
 .zoomImg{
@@ -367,25 +367,25 @@
 }
 
 
-    .zoom img {
-      display: block;
-    }
+		.zoom img {
+			display: block;
+		}
 
-    .zoom img::selection { background-color: transparent; }
+		.zoom img::selection { background-color: transparent; }
 
-    #ex2 img:hover { cursor: url(grab.cur), default; }
-    #ex2 img:active { cursor: url(grabbed.cur), default; }
-  </style>
+		#ex2 img:hover { cursor: url(grab.cur), default; }
+		#ex2 img:active { cursor: url(grabbed.cur), default; }
+	</style>
 
-  <script src='{{url('front')}}/layout/zoom/jquery.zoom.js'></script>
-  <script>
-    $(document).ready(function(){
-      $('.zoom').zoom();
-      $('#ex2').zoom({ on:'grab' });
-      $('#ex3').zoom({ on:'click' });
-      $('#ex4').zoom({ on:'toggle' });
-    });
-  </script>
+	<script src='{{url('front')}}/layout/zoom/jquery.zoom.js'></script>
+	<script>
+		$(document).ready(function(){
+			$('.zoom').zoom();
+			$('#ex2').zoom({ on:'grab' });
+			$('#ex3').zoom({ on:'click' });
+			$('#ex4').zoom({ on:'toggle' });
+		});
+	</script>
 <!-- --------------------------End    Zoom Img  -->
 
    <!-- ----------------------------------------------------------- -->
@@ -451,7 +451,7 @@
   <script src="{{url('front')}}/layout/js/owl.carousel.min.js"></script>
  <!-- ----------------------------------- -->
 
-    <link rel="stylesheet" href="{{url('front')}}/layout/css/style.css">
+		<link rel="stylesheet" href="{{url('front')}}/layout/css/style.css">
 
    <!-- -----------------------------------------------Start public style -->
    <style type="text/css">
@@ -1061,6 +1061,13 @@ s0.parentNode.insertBefore(s1,s0);
     bottom: 83px!important;
     right: 21px!important;
     }
+    /*------------------------------- start  update v 2*/
+    .brand-logo img {
+    width: 36px;
+    height: 36px;
+    margin-top: 7px;
+}
+    /*------------------------------- End    update v 2*/
 
 </style>
 <!--End of Tawk.to Script-->

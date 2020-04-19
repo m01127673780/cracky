@@ -45,34 +45,48 @@ Route::get('storageLink', function () {
      Artisan::call('storage:link');
           return back();
  });
-Route::get('config', function () {
-//    return  php artisan config:clear ;
-     Artisan::call('config:clear');
-          return back();
- });
+ 
+ 
  Route::get('view', function () {
 //    return php artisan view:clear ;
      Artisan::call('view:clear');
           return back();
  }); 
- Route::get('cache', function () {
-//    return php artisan cache:clear ;
-     Artisan::call('cache:clear');
-          return back();
- }); 
-
-
-
+ 
 
 
 Route::get('/createStorage', function () {
     Artisan::call('storage:link');
 });
 
+Route::get('/config_cache', function() {
+    Artisan::call('config:cache');
+    return '<h1>Config cache cleared successfully</h1>';
+});
 
+Route::get('/configCache', function() {
+    Artisan::call('config:cache');
+    return '<h1>Config cache cleared successfully config:cache</h1>';
+});
+
+Route::get('config_remove', function() {
+    Artisan::call('config:clear');
+    return '<h1>Config cache cleared successfully config:clear</h1>';
+});
+
+Route::get('/cache', function() {
+    Artisan::call('cache:clear');
+    return '<h1>Config cache cleared successfully cache:clear</h1>';
+});
 
 Route::get('relodpage', function () {
        return Redirect::back()->with('message',' success');
 
 });
+
+ 
+
+
+ 
+
  

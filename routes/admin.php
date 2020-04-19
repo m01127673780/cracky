@@ -19,7 +19,7 @@
                   // Route::any('admin/custmedit', 'AdminController@test');
                   Route::delete('admin/destroy/all', 'AdminController@multi_delete');
                   Route::resource('admin', 'AdminController');
-                  Route::post('admin/create_quick', 'AdminController@quick_store');
+                   Route::post('admin/create_quick', 'AdminController@quick_store');
 
                 // start users Route
                   // Route::any('users/custmedit', 'UsersController@custom_edit');

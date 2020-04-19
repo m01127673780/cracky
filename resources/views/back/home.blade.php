@@ -35,7 +35,7 @@
                         
                         
                         
-                        <center class="d-none----">
+                        <center class="d-none">  
                         
 
 
